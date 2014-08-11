@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Madeleine",
+  "description": "A simple chrome application",
+  "version": "0.1",
+  "permissions": [
+  ],
+  "icons": {
+    "128": "img/icon_128.png"
+  },
+  "app": {
+    "launch": {
+      "local_path": "index.html",
+      "container": "tab"
+    }
+  }
+}
+
